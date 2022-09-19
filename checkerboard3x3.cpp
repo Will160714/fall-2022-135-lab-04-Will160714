@@ -31,18 +31,20 @@ std::string check3x3(int width, int height){
         }
 
         result += "\n";
+        count = 0;
+        
         if(star)
             star = false;
         else
             star = true;
 
-        if(x % 3 == 0){
+        if(x % 3 == 2){
             change ++;
         }
 
         if(change % 2 != 0){
             stars = " ";
-            space = " ";
+            space = "*";
         }
         else{
             stars = "*";
