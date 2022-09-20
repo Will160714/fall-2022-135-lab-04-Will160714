@@ -6,7 +6,7 @@ std::string trapezoid(int width, int height){
     result += "Input width: " + std::to_string(width) + "\n";
     result += "Input height: " + std::to_string(height) + "\n";
 
-    if(height > width){
+    if(height > width*0.5){
         result += "Impossible shape!";
         return result;
     }
