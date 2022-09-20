@@ -43,6 +43,12 @@ int main(){
     std::cout <<"Task F\n";
     std::cout << "trapezoid(12, 5):\n\n";
     std::cout << f << std::endl;
+    std::cout << std::endl;
+    
+    std::string f1 = trapezoid(12,7);
+    std::cout << "trapezoid(12,7):\n\n";
+    std::cout << f1 << std::endl;
+
     std::cout << "------------------\n"; 
 
     //Task G
